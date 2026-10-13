@@ -1,18 +1,28 @@
 import React from "react";
+// Alias react-scroll's Link to distinguish it from Next.js navigation links.
 import { Link as ScrollLink } from "react-scroll";
+
+// homepage hero is the first section visitors see. It introduces me
+// and provides a button that scrolls down to the projects section
 
 function Hero() {
   return (
     <>
+      {/* center the hero content and keep it within the site's maximum width. */}
       <div
         className="relative heroElem w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hey, I'm Brayden.</p>
+        <p className="text-xl mb-5">Hey, I'm Chloe.</p>
+        {/* main headline, with the key words highlighted in pink!! 
+        this is where I started playing with my own design bits */}
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
-          I enjoy <span className="heroShiny1 text-fun-pink">building</span> and{" "}
-          <span className="heroShiny2 text-fun-pink">designing</span> for the
-          web.
+          Welcome to my <span className="heroShiny1 text-fun-pink">portfolio</span> and{" "}
+          <span className="heroShiny2 text-fun-pink">blog</span>,
+          <h2 className="text-2xl md:text-3xl lg:text-4xl mt-5 font-semibold">
+            that <span className="heroShiny3 text-fun-pink text-xl md:text-2xl lg:text-3xl italic">hopefully</span> showcases my skills
+          </h2>
+          {/* decorative SVGs are positioned around the headline; delays stagger their animations. */}
           <img
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
             style={{ animationDelay: "0.1s" }}
@@ -58,6 +68,7 @@ function Hero() {
             src="/static/doodles/hero/code.svg"
           />
         </h1>
+        {/* Scroll to the element with id="learnmore" (the projects section). */}
         <ScrollLink
           activeClass="active"
           to="learnmore"

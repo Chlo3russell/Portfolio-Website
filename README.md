@@ -1,18 +1,27 @@
-# **[braydentw.io](https://braydentw.io)**
+# Ma Website
 
-Hey there! I'm Brayden and this is my lovely lovely portfolio built using **React, NextJS, and TailwindCSS**!
+I created this website to showcase my personal projects and develop my front end skills.
 
-## Guidelines
+This was orginally based on a template website by (@BraydenTW) !! However I do need to update the following:
 
-> **Note**: **I ask of you that you do your best to follow these rules:**
+> added 1041 packages, and audited 1042 packages in 1m
 
-1. You can **use** this code and style **as inspiration**.
-2. **Please do not copy it directly**.
-3. **Giving credit** to (@BraydenTW) the author **is appreciated**.
+>282 packages are looking for funding
+>  run `npm fund` for details
 
-Doing so makes it better for everyone here on this platform and respects what everyone has made. **Please be you and make yourself unique from the rest!** ✨
+>84 vulnerabilities (4 low, 35 moderate, 35 high, 10 critical)
 
-<hr/>
-<a href="https://www.buymeacoffee.com/braydenw" target="_blank"><img src="./public/static/misc/buy-me-a-coffee.svg" alt="Buy Me A Coffee: @BraydenW" width="160"></a>&nbsp;
-<br/>
-<p>Thank you so much for your support. 💙</p>
+>To address issues that do not require attention, run:
+>  npm audit fix
+
+>To address all issues possible (including breaking changes), run:
+>  npm audit fix --force
+
+>Some issues need review, and may require choosing
+>a different dependency.
+
+>Run `npm audit` for details.
+
+It is built using **React, NextJS, and TailwindCSS**!
+
+

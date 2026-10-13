@@ -3,8 +3,12 @@ import React from "react";
 import { footer } from "@/data/global";
 import Image from "next/image";
 
+// This component renders the footer section of the website.
+// It displays multiple columns of links, support options, and credits.
+// The footer is responsive and adapts to different screen sizes.
 function Footer() {
   return (
+    // classname used to style the footer with flexbox, padding, border, and background colour
     <footer className="flex flex-col w-screen px-5 py-10 border-t border-fun-pink-darker z-5 bg-bg">
       <div className="w-full max-w-4xl m-auto grid grid-cols-2 sm:grid-cols-3 justify-between items-start">
         {footer.columns.map((item, index) => {
@@ -112,10 +116,9 @@ function Footer() {
           <div className="mt-2 text-xs ">
             Made by{" "}
             <a
-              href="mailto:contact@braydentw.io"
               className="text-fun-gray-light font-medium"
             >
-              Brayden Wright
+              Chloe Russell
             </a>
             . All rights reserved.
           </div>
@@ -124,7 +127,7 @@ function Footer() {
       <div className="mt-8 text-center sm:text-right sm:-mt-12">
         <a
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
-          href="https://github.com/braydentw/braydentw.io"
+          href="https://github.com/Chlo3russell"
           target="_blank"
           rel="nooreferrer"
         >

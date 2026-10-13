@@ -23,19 +23,29 @@ module.exports = {
     pink: colors.pink,
     },
     extend: {
+      // Custom colors for the website
       colors: {
-        bg: "#000a1f",
+        // MAIN BACKGROUND
+        bg: "#080353",
+        // highlight colour
+        "fun-pink": "rgb(234, 154, 178)",
+
         "fun-gray-light": "#b2bbcf",
-        "fun-gray": "#7b89a8",
+        "fun-gray": "#ffdbe5",
         "fun-gray-medium": "#767c85",
         "fun-gray-darker": "#2a2a2c",
         "fun-gray-dark": "#1F1F20",
         "fun-gray-darkest": "#141414",
-        "fun-pink": "#00c7ff",
-        "fun-pink-darker": "#000f2e",
-        "fun-pink-darkest": "#000c24",
+        "fun-pink-darker": "#497e67a6",
+        "fun-pink-darkest": "#337357",
         "fun-pink-dark": "#192742",
-        "fun-pink-light": "#009ac5",
+        "fun-pink-light": "#ffdbe5",
+        "chole-more-purple": "#310A59",
+        "chole-lighter-purple": "#3B0D63",
+        "chole-light-plum": "#902E6B",
+        "chole-dark-pink": "#CA8184",
+        "chole-yellow": "#FBE99E",
+        "chole-light-yellow": "#E49B70",
       },
       rotate: {
         '360': '360deg'

@@ -6,3 +6,5 @@ module.exports = {
     autoprefixer: {},
   },
 };
+
+// Have a look at the Tailwind CSS documentation for more information on how to use PostCSS plugins with Tailwind CSS.
